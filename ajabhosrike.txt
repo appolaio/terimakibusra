@@ -1,0 +1,56 @@
+<style>
+.network-footer {
+    background: rgba(255,255,255,0.02);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 35px 20px 25px;
+    margin-top: 40px;
+}
+.network-footer .net-title {
+    text-align: center; font-size: 13px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 2px;
+    color: #888; margin-bottom: 20px;
+}
+.net-grid {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+    max-width: 900px; margin: 0 auto;
+}
+.net-chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 8px 16px; border-radius: 50px;
+    font-size: 13px; color: #aaa;
+    text-decoration: none; transition: 0.3s;
+}
+.net-chip:hover {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    color: #fff; transform: translateY(-2px);
+}
+.net-chip .dot {
+    width: 6px; height: 6px; border-radius: 50%; background: #22c55e;
+}
+</style>
+
+<div class="network-footer">
+    <div class="net-title">🌐 Our Global Network</div>
+    <div class="net-grid">
+        <!-- News Portals -->
+        <a href="https://update24.site/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>Update24 News</a>
+        <a href="https://sonews.space/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>SOnews</a>
+        <a href="https://newsflow.store/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>NewsFlow</a>
+        <a href="https://newz.pics/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>Newz Pics</a>
+        <a href="https://info24.online/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>Info24</a>
+        
+        <!-- Entertainment Guides -->
+        <a href="https://rtptoto.one/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>RTP Toto</a>
+        <a href="https://gacormax.live/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>GacorMax</a>
+        <a href="https://linkgacor.best/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>LinkGacor</a>
+        <a href="https://thaislot.blog/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>ThaiSlot</a>
+        <a href="https://maxwin.space/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>Maxwin</a>
+        <a href="https://rtpgacor.life/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>RTP Gacor</a>
+        <a href="https://slotwinnow.click/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>SlotWinNow</a>
+        <a href="https://spinrich.site/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>SpinRich</a>
+        <a href="https://slotarena.today/" class="net-chip" target="_blank" rel="noopener"><span class="dot"></span>SlotArena</a>
+    </div>
+</div>
